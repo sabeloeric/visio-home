@@ -1,0 +1,28 @@
+.vision-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #0a1b2c;
+  margin-right: 20px;
+  padding: 20px;
+  flex: 1;
+
+  @media only screen and (max-width: 800px) {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+
+  &__blocks {
+    display: flex;
+    margin-bottom: 50px;
+
+    @media only screen and (max-width: 800px) {
+      flex-direction: column;
+    }
+  }
+
+  &__content {
+    color: white;
+    text-transform: uppercase;
+    width: 70%;
+  }
+}
